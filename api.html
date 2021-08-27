@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API</title>
+    <style>
+      img {
+        width: 150px;
+      }
+      #countries {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+      }
+      .styles {
+        border: 2px solid tomato;
+        padding: 1rem;
+        border-radius: 3rem;
+        margin: 1rem;
+      }
+      #more {
+        position: fixed;
+        /* position: fixed; */
+        background-color: rgb(177, 174, 174);
+        padding: 0.4rem;
+        border-radius: 1rem;
+      }
+      #more h3 {
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div id="more"></div>
+    </section>
+    <div id="countries"></div>
+    <script src="api.js"></script>
+  </body>
+</html>
